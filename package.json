@@ -1,0 +1,27 @@
+{
+  "name": "euphony",
+  "version": "1.0.0",
+  "description": "The Music Streaming App",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "hbs": "^4.1.2",
+    "mongodb": "^3.6.10",
+    "spotify-web-api-node": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pratikshedge/Euphony1.git"
+  },
+  "author": "Pratik Rasika Prayag",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pratikshedge/Euphony1/issues"
+  },
+  "homepage": "https://github.com/pratikshedge/Euphony1#readme"
+}
