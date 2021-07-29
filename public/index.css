@@ -109,11 +109,11 @@
 
     /* Full height (cover the whole page) */
 
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.315);
+    top: 2px white;
+    left: 2px white;
+    right: 2px white;
+    bottom: 2px white;
+    background-color: white;
 
     /* Black background with opacity */
     z-index: 2;
@@ -121,9 +121,14 @@
 }
 
 .card {
-    border: none;
-    background: rgba(0, 0, 0, 0.582) !important;
+    border: 3px white;
+    border-radius: 10%;
+    background: #2193b0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
+
 
 .first {
     z-index: 10;
@@ -173,4 +178,9 @@
 /* Delete button */
 .delete {
     z-index: 10;
+}
+
+.btn btn-primary btn-circle{
+    
+    opacity: 0.5;
 }
