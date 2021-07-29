@@ -16,12 +16,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pratikshedge/Euphony1.git"
+    "url": "git+https://github.com/pratikshedge/Euphony.git"
   },
   "author": "Pratik Rasika Prayag",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pratikshedge/Euphony1/issues"
+    "url": "https://github.com/pratikshedge/Euphony/issues"
   },
-  "homepage": "https://github.com/pratikshedge/Euphony1#readme"
+  "homepage": "https://github.com/pratikshedge/Euphony#readme"
 }
