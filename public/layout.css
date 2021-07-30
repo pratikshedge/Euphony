@@ -43,8 +43,8 @@ a:focus {
 
 #sidebar {
     /* don't forget to add all the previously mentioned styles here too */
-    background: rgba(0, 0, 0, 0.719);
-    color: #fff;
+    background: rgba(255, 255, 255, 0.719);
+    color: #000;
     transition: all 0.3s;
      min-width: 250px;
      max-width: 250px;
